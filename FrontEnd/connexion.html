@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulaire de connexion</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style_connexion.css">
+    <script src="./script_connexion.js"></script>
+    <script src="https://kit.fontawesome.com/614a71d620.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Sophie Bluel <span>Architecte d'intérieur</span></h1>
+        <nav>
+            <ul>
+                <li>projets</li>
+                <li>contact</li>
+                <li id="login"><a href="index.html">login</a></li>
+                <li><img src="./assets/icons/instagram.png" alt="Instagram"></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <div class="container">
+
+            <form id="registration-form" method="POST">
+                <h2>Log In</h2>
+                <label for="email">E-mail</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="password">Mot de passe</label><br>
+                <input type="password" id="password" name="password"><br>
+                <div id="error-message" style="color: red; display: none;"></div>
+                <input type="submit" value="Se connecter">
+                <span class="forgot-password">Mot de passe oublié</span>
+
+            </form>
+
+        </div>
+    </main>
+   
+</body>
+<footer>
+
+    <h3>Mentions Légales</h3>
+
+</footer>
+
+</html>
